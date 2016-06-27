@@ -14,7 +14,7 @@ $.getJSON("https://api.soundcloud.com/playlists/235506624?client_id=f4f2237e0ee1
       $('#iframe').attr('src', 'https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/'+lastTrack.id+ '&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;visual=true')
 
       //adding the poster, rating, plot under the latest episode
-      $.getJSON('http://www.omdbapi.com/?t='+titleSplit[0], function (movie) {
+      $.getJSON('https://www.omdbapi.com/?t='+titleSplit[0], function (movie) {
         $('#poster').attr('src',movie.Poster);
         $('#rating').html('IMDB Rating: '+movie.imdbRating);
         $('#plot').html('Plot: '+movie.Plot);

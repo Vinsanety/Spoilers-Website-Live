@@ -16,8 +16,8 @@ $.getJSON('https://api.soundcloud.com/playlists/235506624?client_id=f4f2237e0ee1
       //adds the title of most recent track to the DOM
       $('#movieTitle1').html(titleSplit[0])
       // Accessing OMDB for movie posters by using the split title from above:
-      $.getJSON('http://www.omdbapi.com/?t='+titleSplit[0], function (movie) {
-        console.log('http://www.omdbapi.com/?t=' + titleSplit[0]);
+      $.getJSON('https://www.omdbapi.com/?t='+titleSplit[0], function (movie) {
+        console.log('https://www.omdbapi.com/?t=' + titleSplit[0]);
         $('#posterOne').attr('src',movie.Poster);
         //Appending the IMDB Rating:
         $('#ratingsOne').html('IMDB Rating: '+movie.imdbRating);
@@ -30,8 +30,8 @@ $.getJSON('https://api.soundcloud.com/playlists/235506624?client_id=f4f2237e0ee1
       var titleSplit = title.split(' -')
       console.log(titleSplit);
       $('#movieTitle2').html(titleSplit[0]);
-      $.getJSON('http://www.omdbapi.com/?t='+titleSplit[0], function (movie) {
-        console.log('http://www.omdbapi.com/?t=' + titleSplit[0]);
+      $.getJSON('https://www.omdbapi.com/?t='+titleSplit[0], function (movie) {
+        console.log('https://www.omdbapi.com/?t=' + titleSplit[0]);
         $('#posterTwo').attr('src',movie.Poster);
         $('#ratingsTwo').html('IMDB Rating: '+movie.imdbRating);
         $('#plotTwo').html('Plot: '+movie.Plot);
@@ -42,8 +42,8 @@ $.getJSON('https://api.soundcloud.com/playlists/235506624?client_id=f4f2237e0ee1
       var titleSplit = title.split(' -')
       console.log(titleSplit);
       $('#movieTitle3').html(titleSplit[0]);
-      $.getJSON('http://www.omdbapi.com/?t='+titleSplit[0], function (movie) {
-        console.log('http://www.omdbapi.com/?t=' + titleSplit[0]);
+      $.getJSON('https://www.omdbapi.com/?t='+titleSplit[0], function (movie) {
+        console.log('https://www.omdbapi.com/?t=' + titleSplit[0]);
         $('#posterThree').attr('src',movie.Poster);
         $('#ratingsThree').html('IMDB Rating: '+movie.imdbRating);
         $('#plotThree').html('Plot: '+movie.Plot);
