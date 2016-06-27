@@ -1,0 +1,112 @@
+body{
+  font-family: Trebuchet MS;
+  margin: 0;
+}
+header{
+  width: 100%;
+  height: 7vh;
+  box-shadow: 3px 3px 3px #888888;
+  background-color: #F0CD4D;
+  position: relative;
+}
+#headerText{
+  font-family: Courier, monospace;
+  font-size: 32px;
+  color: #F8FED7;
+  position: absolute;
+  margin-left: 125px;
+  margin-top: 1vh;
+}
+#headerText:hover{
+    color: rgba(0,0,0,0.25);
+}
+#headerLogo{
+  width: 60px;
+  height: 7vh;
+  margin-left: 55px;
+  color: black;
+  position: absolute;
+}
+#navMenu{
+  font-family: Courier, monospace;
+  font-size: 20px;
+  width: auto;
+  margin-left: 35%;
+  margin-top: 2vh;
+  position: absolute;
+  display: inline-block;
+}
+.navLink{
+  color: #F8FED7;
+  padding: 20px;
+}
+a{
+  text-decoration: none;
+}
+a:link {
+  color: #F8FED7;
+}
+a:visited {
+  color: #F8FED7;
+}
+a:hover {
+  color: rgba(0,0,0,0.25);
+}
+a:active {
+  color: #565051;
+}
+main{
+  width: 100%;
+  height: 86vh;
+  background-color:#FAFFE1;
+}
+#leftDiv{
+  width: 50%;
+  height: 86vh;
+  float: left;
+  align-items: center;
+  display: flex;
+}
+#moviesSpoiled{
+  width: 90%;
+  height: auto;
+  margin-left: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+#rightDiv{
+  width:48%;
+  height: auto;
+  float: left;
+  text-align: center;
+  margin-left: 1%;
+}
+#rightDiv h1{
+  margin: 3vh 0 0 0;
+  color: #C58847;
+  text-shadow: 2px 2px black;
+}
+img{
+  width: 50%;
+  height: auto;
+}
+.movieProfile{
+  width:33.3%;
+  float: left;
+  height: auto;
+}
+footer{
+  width: 100%;
+  height: 7vh;
+  background-color: #E6CA69;
+  font-style:italic;
+  font-weight: 800;
+  clear: both;
+}
+#footerText{
+  font-family: Trebuchet MS;
+  color: black;
+  font-size: 14px;
+  text-align: center;
+  margin: 0;
+  padding-top: 1.5vh;
+}
