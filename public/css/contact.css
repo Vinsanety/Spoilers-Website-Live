@@ -100,14 +100,26 @@ div {
   text-shadow: 1px 1px black;
 }
 #email{
-  font-size: 28px;
-  margin: 3vh 0 0 5px;
+  font-size: 24px;
+  margin: 2vh 0 0 5px;
   color: #C58847;
   text-shadow: .75px .75px black;
 }
 #twitter{
-  font-size: 28px;
-  margin: 3vh 0 0 5px;
+  font-size: 24px;
+  margin: 10px 0 0 5px;
+  color: #C58847;
+  text-shadow: .75px .75px black;
+}
+#papTwitter{
+  font-size: 24px;
+  margin: 10px 0 0 5px;
+  color: #C58847;
+  text-shadow: .75px .75px black;
+}
+#moneyTwitter{
+  font-size: 24px;
+  margin: 10px 0 0 5px;
   color: #C58847;
   text-shadow: .75px .75px black;
 }
