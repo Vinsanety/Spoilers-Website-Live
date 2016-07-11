@@ -60,6 +60,7 @@ main{
   width: 100%;
   height: 86vh;
   background-color:#FAFFE1;
+  overflow: scroll;
 }
 div {
   float: left;
@@ -120,7 +121,7 @@ div {
 #indexIntro{
   margin: 3% 10%;
   text-align: center;
-  position: relative;
+  position: absolute;
   color: #C58847;
 }
 footer{

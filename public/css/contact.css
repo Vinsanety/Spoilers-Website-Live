@@ -59,92 +59,79 @@ main{
   width: 100%;
   height: 86vh;
   background-color:#FAFFE1;
+  overflow: scroll;
 }
 div {
-  float: left;
+  /*float: left;*/
+  height: auto;
+  text-align: center;
 }
-
 #topDiv{
   width:100%;
-  height: 53vh;
-  position: relative;
-  z-index: 1;
+  height: 70%;
+  text-align: center;
 }
 #backgroundPic{
   margin: 0;
   width:100%;
-  height: 53vh;
+  height: 100%;
   background-image: url('../images/you-talking-to-me.jpg');
-  opacity: .35;
-  position: absolute;
-  z-index: -1;
+  /*position: relative;*/
+  /*z-index: -1;*/
 }
 #topDiv h1{
+  width: 100%;
   font-size: 44px;
   text-align: center;
-  margin: 20px 0 0 0;
+  margin: 2vh 0 0 0;
   color: #C58847;
   text-shadow: 2px 2px black;
 }
 #leftTop{
   width: 50%;
-  height: inherit;
-  position: absolute;
-  margin-top: -57px;
+  height: auto;
   text-align: center;
+  float: left;
+}
+ul{
+  width: 100%;
+  height: auto;
+  margin:0;
+  padding: 0;
+}
+li{
+  font-size: 24px;
+  margin: 10px 0 0 5px;
+  color: #C58847;
+  text-shadow: .5px .5px black;
+  list-style-type: none
 }
 #contactHeader{
   font-size: 36px;
-  margin: 15vh 0 0 0;
+  /*margin: 15vh 0 0 0;*/
   color: #E0C466;
   text-shadow: 1px 1px black;
-}
-#email{
-  font-size: 24px;
-  margin: 2vh 0 0 5px;
-  color: #C58847;
-  text-shadow: .75px .75px black;
-}
-#twitter{
-  font-size: 24px;
-  margin: 10px 0 0 5px;
-  color: #C58847;
-  text-shadow: .75px .75px black;
-}
-#papTwitter{
-  font-size: 24px;
-  margin: 10px 0 0 5px;
-  color: #C58847;
-  text-shadow: .75px .75px black;
-}
-#moneyTwitter{
-  font-size: 24px;
-  margin: 10px 0 0 5px;
-  color: #C58847;
-  text-shadow: .75px .75px black;
 }
 #rightTop{
   width: 50%;
-  height: inherit;
-  position: absolute;
-  margin-left: 50%;
-  margin-top: -57px;
-  display: flex;
+  height: auto;
+  float: right;
+  /*display: flex;
   flex-direction: column;
-  text-align: center;
+  text-align: center;*/
 }
 #linksHeader{
   font-size: 36px;
-  margin: 15vh 0 0 0;
+  /*margin: 15vh 0 0 0;*/
   color: #E0C466;
-  text-shadow: 1px 1px black;
+  text-shadow: .5px .5px black;
 }
 #iTunesLink{
   color: black;
   margin: 3vh 0 0 0;
   font-size: 28px;
   color: #C58847;
-  text-shadow: 1px 1px black;
+  text-shadow: .5px .5px black;
 }
 #iTunesLink:hover{
   color:#F8FED7;
@@ -154,7 +141,7 @@ div {
   margin: 3vh 0 0 0;
   font-size: 28px;
   color: #C58847;
-  text-shadow: 1px 1px black;
+  text-shadow: .5px .5px black;
 }
 #soundcloudLink:hover{
   color: #F8FED7;
@@ -164,7 +151,7 @@ div {
   margin: 3vh 0 0 0;
   font-size: 28px;
   color: #C58847;
-  text-shadow: 1px 1px black;
+  text-shadow: .5px .5px black;
 }
 #redditLink:hover{
   color: #F8FED7;
@@ -178,11 +165,14 @@ hr{
 }
 #bottomDiv{
   width: 100%;
-  height: 33vh;
+  height: 30%;
+  /*float: left;*/
+  display: inline-flex;
 }
 #bottomOne{
+  margin: 0;
   width: 33.3%;
-  height:31vh;
+  height: 100%;
   text-align: center;
 }
 #bottomOne p{
@@ -190,14 +180,22 @@ hr{
   margin: -3px 0 0 0;
 }
 #bottomTwo{
+  margin: 0;
   width: 33.3%;
-  height: 31vh;
+  height: 100%;
   text-align: center;
-  color: #C58847;
+}
+#bottomTwo img{
+  width: 100%;
+  height: auto;
 }
 #bottomThree{
+  margin: 0;
   width:33.3%;
-  height: 31vh;
+  height: 100%;
+  text-align: center;
+  color: #C58847;
+  font-weight: bolder;
 }
 #boxOffice{
   width: 80%;
